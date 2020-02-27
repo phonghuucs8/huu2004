@@ -1,0 +1,338 @@
+.tracker-form {
+	padding: 10px 5px;
+	margin-left: 100px;
+	select {
+		width: 87.5%;
+		
+		margin-left: 38px;
+	}
+	label {
+		font-family: serif;
+		font-weight: 500;
+		span {
+			color: red;
+		}
+	}
+}
+.header-page {
+	h4 {
+		font-size: 20px;
+		color: #333333;
+		font-family: serif;
+	}
+	padding: 5px 15px;
+}
+.Subject-form {
+	position: relative;
+	padding: 10px 5px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+	label {
+		font-family: serif;
+		font-weight: 500;
+	}
+	span {
+		color: red;
+	}
+	input {
+		position: absolute;
+    width: 87%;
+		display: inline;
+		
+		margin-left: 42px;
+	
+	}
+}
+.page-issue-form {
+	background: #f6f6f6;
+}
+.assignee-form {
+	margin: 0 100px;
+	margin-top: 12px;
+	label {
+		margin-right: 44px;
+		font-family: serif;
+		font-weight: 500;
+	}
+	select {
+		width: 20%;
+		border-radius: 5px;
+	}
+}
+.form-date {
+	display: flex;
+	margin-left: 100px;
+	margin-right: 120px;
+	justify-content: space-between;
+	margin-top: 20px;
+	label {
+		font-family: serif;
+		font-weight: 500;
+	}
+}
+.start-date {
+	label {
+		margin-right: 40px;
+	}
+	input {
+		border-radius: 5px;
+	}
+}
+.Due-date {
+	label {
+		margin-right: 10px;
+	}
+	input {
+		border-radius: 5px;
+	}
+}
+.Done-date {
+	label {
+		margin-right: 10px;
+	}
+	select {
+		height: 30px;
+		border-radius: 5px;
+	}
+}
+.add_attachment {
+	margin-left: 100px;
+	padding: 10px 0px;
+	label {
+		margin-right: 70px;
+		font-family: serif;
+		font-weight: 500;
+	}
+	input {
+		font-family: serif;
+		font-weight: 500;
+	}
+	span {
+		font-family: initial;
+		font-weight: 500;
+		font-size: 12px;
+	}
+}
+.inp-sub {
+	display: flex;
+	justify-content: center;
+	padding: 7px 0px 70px;
+	input {
+		margin-right: 2px;
+	}
+	a {
+		text-decoration: none;
+		margin-top: 4px;
+	}
+}
+.ck-blurred {
+	height: 246px;
+	width: 1545px;
+}
+.Textara {
+	display: flex;
+	margin: 0 100px;
+	margin-top: 10px;
+	label {
+		margin-right: 30px;
+		font-family: serif;
+		font-weight: 500;
+	}
+}
+.ck-editor__editable_inline {
+	background-color: white;
+	width: 81.9%;
+	display: inline-block;
+	margin-left: 210px;
+	margin-top: 10px !important;
+}
+.ck.ck-toolbar {
+	width: 82% !important;
+	display: inline-block !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+}
+.lb-doc {
+	display: inline;
+	margin-left: 105px;
+	font-family: serif;
+	font-weight: 500;
+	margin-right: 28px !important;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 35px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: initial;
+  font-weight: 600;
+}
+
+.icon-header {
+  font-size: 13px;
+
+  .icon1 {
+    color: rgb(235, 235, 146);
+  }
+
+  .icon2 {
+    color: rgb(177, 169, 169);
+  }
+}
+
+h4 {
+  font-size: 16px;
+  font-family: initial;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.content {
+  margin: 0 35px;
+  background: #ffffdb;
+  border: 1px solid #3333;
+}
+
+.title-object1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+}
+
+.title-object1-icon {
+  display: flex;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.object1 p {
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+
+.title-object1-icon {
+  i {
+    margin-top: 4px;
+  }
+
+  a {
+    padding-right: 2px;
+    text-decoration: none;
+    color: rgb(126, 119, 119);
+    padding-right: 2px;
+
+    &.active {
+      color: blue;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(126, 119, 119);
+    padding-right: 2px;
+  }
+}
+
+.object2-pragra p {
+  margin: 0;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.object3-pragra {
+  p {
+    margin: 0;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  input {
+    width: 81px;
+    height: 18px;
+    background-color: #eeeeee;
+    BORDER: NONE;
+  }
+}
+
+.object2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #deded1;
+}
+
+.object3 {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 140px;
+  border-bottom: 1px solid #deded1;
+}
+
+.object3-Description {
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: inherit;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+.object3-icon a {
+  text-decoration: none;
+}
+
+.object4, .object5 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  align-items: center;
+  border-bottom: 1px solid #deded1;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.footer {
+  margin: 5px 34px;
+  text-align: right;
+  font-size: 14px;
+  font-family: inherit;
+  padding-bottom: 50px;
+}
+
+.icon-footer {
+  .icon1 {
+    color: rgb(235, 235, 146);
+  }
+
+  .icon2 {
+    color: rgb(177, 169, 169);
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.infor-footer a {
+  text-decoration: none;
+}
